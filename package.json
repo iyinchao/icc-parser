@@ -1,0 +1,9 @@
+{
+  "name": "icc-parser",
+  "version": "0.0.1",
+  "description": "An ICC(International Color Consortium) file parser with complete structured data. (WIP)",
+  "main": "index.js",
+  "repository": "https://github.com/iyinchao/icc-parser.git",
+  "author": "iyinchao <yincharles@126.com>",
+  "license": "MIT"
+}
