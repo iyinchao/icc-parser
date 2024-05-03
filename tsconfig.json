@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "esnext",
+    "moduleResolution": "Node",
+    "declaration": true,
+    "strict": true,
+    "sourceMap": true,
+    "lib": ["ES6", "ESNext"],
+    "noEmitOnError": true
+  }
+}

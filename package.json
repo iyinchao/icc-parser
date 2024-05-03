@@ -1,9 +1,18 @@
 {
   "name": "icc-parser",
   "version": "0.0.1",
-  "description": "An ICC(International Color Consortium) file parser with complete structured data. (WIP)",
-  "main": "index.js",
+  "description": "An ICC (International Color Consortium) file parser with complete structured data. (WIP)",
+  "main": "lib/index.js",
+  "module": "lib/index.esm.js",
   "repository": "https://github.com/iyinchao/icc-parser.git",
   "author": "iyinchao <yincharles@126.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@types/node": "^20.12.8",
+    "prettier": "^3.2.5",
+    "rollup": "^4.17.2",
+    "tslib": "^2.6.2",
+    "typescript": "^5.4.5"
+  }
 }
