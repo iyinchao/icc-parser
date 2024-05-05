@@ -17,6 +17,11 @@ module.exports = {
       file: resolve('lib/index.esm.js'),
     }
   ],
+  watch: {
+    chokidar: {
+      paths: resolve('src/**')
+    }
+  },
   plugins: [
     typescript({
       declarationDir: resolve('lib'),

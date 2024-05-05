@@ -4,15 +4,26 @@
   "description": "An ICC (International Color Consortium) file parser with complete structured data. (WIP)",
   "main": "lib/index.js",
   "module": "lib/index.esm.js",
+  "types": "lib/index.d.ts",
   "repository": "https://github.com/iyinchao/icc-parser.git",
   "author": "iyinchao <yincharles@126.com>",
   "license": "MIT",
   "devDependencies": {
+    "@babel/core": "^7.24.5",
+    "@babel/preset-env": "^7.24.5",
+    "@babel/preset-typescript": "^7.24.1",
+    "@jest/globals": "^29.7.0",
     "@rollup/plugin-typescript": "^11.1.6",
     "@types/node": "^20.12.8",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
     "prettier": "^3.2.5",
     "rollup": "^4.17.2",
+    "ts-node": "^10.9.2",
     "tslib": "^2.6.2",
     "typescript": "^5.4.5"
+  },
+  "scripts": {
+    "test": "jest"
   }
 }

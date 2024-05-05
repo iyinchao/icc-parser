@@ -1,4 +1,5 @@
-export const parser = () => {
-  const v: number = 1;
-  console.log('It works', v);
+import { test } from "./utils";
+
+export const parser = (a: number) => {
+  return test(a, 1);
 }
