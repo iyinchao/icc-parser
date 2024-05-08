@@ -24,6 +24,7 @@
     "typescript": "^5.4.5"
   },
   "scripts": {
-    "test": "jest"
+    "dev": "rollup -c ./build/rollup.config.js --watch",
+    "dev:test": "jest --watch"
   }
 }
